@@ -1,0 +1,266 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+.framed{    margin: 15px auto 10px auto; webkit-box-shadow: 0px 28px 85px 5px #ccc;
+	box-shadow: 0px 28px 85px 5px #ccc;}
+#top-bar{    background: url(../../uploads/2019/04/topnav.png);
+	background-repeat-x: inherit;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 23px;
+}
+.widget img{border-radius:6px}
+.wp-caption{margin-bottom:0}
+.widget_media_image{margin-bottom:15px}
+.box-blog-post .is-divider, .widget .wp-caption .wp-caption-text, .widget .is-divider{display:none}
+span.widget-title{display: block;
+	margin: 10px 0;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 18px;
+	color: #d40003;}
+.recent-blog-posts a:hover{color:#c40004} .recent-blog-posts a {
+	font-weight: bold;
+	font-size: 14px;
+	color: #3e3e3e;
+	line-height: 18px;
+}.mr-half {
+	margin-right: 10px;
+}
+
+.footer-section{    box-shadow: 0px -5px 5px #0000000d;}
+.blog-single .blog-share .button.is-outline{border:none !important}
+.blog-single .blog-share{text-align:left}
+.entry-content {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.is-divider{display:none}
+.blog-single h1.entry-title{  font-size: 22px;
+	color: #c00004;}
+.recent-blog-posts-li .badge .badge-inner{border-radius:99%}
+.big-post .post-item .post-title{font-size:19px; color:#d70000; margin-bottom:5px}
+#wrapper, .header-bg-color,body.framed{ border-radius:15px}
+.row-large>.col{padding:0 15px 15px}
+.header-main {background:url(../../uploads/2019/04/bg-header.jpg); margin-left:15px;margin-right:15px;margin-top:15px; border-top-left-radius:10px; border-top-right-radius:10px}
+.header-bg-color, .header-wrapper{    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;}
+.header-bottom{background-image: linear-gradient(#e80000, #bb0005);
+	margin-left: 15px;
+	margin-right: 15px;}.full-width .ubermenu-nav, .container, .row {
+		max-width: 1090px;
+}
+.header-bottom .nav li{margin:0
+}
+.header-bottom .nav li a:hover {
+	background: white;
+	color: black;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.header-bottom .nav li a {margin-top:2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	text-transform: none;
+	padding: 6px 15px;
+	color: white;
+	border-right: 1px solid #e20000;
+	border-left: 1px solid #c20004;
+}
+.header-bottom .container{padding-left:0; padding-right:0}
+.header-bottom .nav li a:hover{background:white; color:black}
+#top-bar .nav li a{padding:0;line-height: 24px;}
+#top-bar .nav li a:hover{text-decoration:underline}
+.nav-dropdown{padding:0; border: 1px solid #d6d6d6; border-radius:10px}
+.nav-dropdown>li>a{margin:0 !important; border-radius:0 !important; color:black !important; font-weight:bold; border-left:none !important; border-right:none !important;    margin: 0;
+	border-bottom: 1px dashed #e6e6e6;}
+.nav-dropdown>li>a:hover{background:#f3f3f3 !important; color:red !important}
+.big-post .post-item .box-text{padding-bottom:0}
+.big-post .flickity-button{display:none}
+.vertical-list-post .post-item .box-text{padding:0; padding-left:10px}
+.vertical-list-post .post-item .post-title{font-size:14px; color:black}
+.vertical-list-post .post-item{padding:0; padding-bottom:15px}
+.vertical-list-post .post-item .post-title:hover{color:#dc0000}
+.post-row .cot4 img{border-radius:10px}
+.post-row .cot8, .post-row .cot4, .post-row .cot8 .cot7, .post-row .cot8 .cot5 {padding-bottom:0}
+.row-video-post .flickity-slider .post-item, .video-post-section .large-12{padding-bottom:0 !important}
+.post-row .cot4{flex-basis:30%; max-width:30%}
+.post-row .cot8{flex-basis:70%; max-width:70%}
+.du-an-noi-bat{background: #f3f3f3;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 14px;}
+.du-an-noi-bat h2{font-size: 18px;
+	color:#d70000;}
+.du-an-noi-bat ul li a:hover{text-decoration:underline}
+.du-an-noi-bat ul li a{    color: black;  
+}
+.du-an-noi-bat ul{margin-bottom:0}
+.row-video-post .post-item .box-text{padding-bottom:0}
+.row-video-post .post-item .post-title{color:black}
+.row-video-post .post-item .box-text .post-title:hover{color:#8a0004}
+.row-video-post .flickity-button{top: 60%;
+}
+.row-video-post{margin:0 !important}
+.row-video-post .flickity-prev-next-button svg {
+	position: absolute;
+	background: white;
+	box-shadow: 2px 2px 10px #0000002b; border-radius:99%}
+.row-video-post .overlay-icon{height: 35px;width:35px; line-height:10px}
+.row-video-post .post-item .box-image{border-radius:7px}
+.box-post .post-item .box-text{
+	padding: 10px;
+	background-image: linear-gradient(transparent, black); background-color:none}
+.tin-giao-phan .post-item{padding-bottom:14px}
+.box-post .post-item .post-title{font-size:16px}
+.hinh-anh-section .large-12{padding-bottom:5px}
+.footer-section ul{margin-bottom:0}
+.footer-section ul li{    margin-bottom: 0;
+	list-style: none;
+	font-size: 14px;
+	margin-left: 0;}
+.footer-section{padding-top:10px; padding-bottom:10px}
+.absolute-footer {
+	background-color: #ffffff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top: 1px solid #eaeaea;
+}
+.blog-single .entry-meta a{color:#0a85d0}
+a.back-to-top{background: red;
+	border: 0 !important;
+	color: white;}
+.blog-single .entry-meta{    text-transform: none;
+	letter-spacing: 0;
+	font-size: 14px;
+	color: gray;}
+.duong-dan{display:flex; margin-bottom:20px}
+.footer-section h3{    margin-bottom: 0;}
+.tin-giao-phan .post-item .box-image img{border-radius:0}
+.duong-dan .container{ height:35px; margin: 0 15px;
+	background: gray;
+	display: inline-block;
+	clear: both;
+	background-image: linear-gradient(to right, #f2f2f2 , white);
+	max-width: 1070px;
+}.page-wrapper {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.duong-dan .left{width:70%; display:inline-block; float:left}
+.blog-archive .post-item .box-text{padding: 0;
+	padding-left: 15px;
+}
+.blog-archive .large-9 .badge{display:none}
+button.xem-them{    margin: 0;
+	padding: 0;
+	text-transform: none;
+	color: #c60004;
+	text-decoration: underline; font-weight:normal}
+.blog-archive .post-item:first-child .box-image{width:50% !important}
+.duong-dan .right{width: 30%;
+	display: inline-block;
+	float: right;
+	text-align: right;
+	line-height: 36px;
+	font-weight: bold;
+	color: #d00003;}
+.duong-dan .right .entry-category a{color:#bf0004}
+.duong-dan .right .entry-category{color:#bf0004;    line-height: 33px;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 15px;
+	text-align: right;}
+#breadcrumbs a{color:#0a85d0}
+#breadcrumbs{    margin-bottom: 0;
+	line-height: 34px;
+	font-size: 13px;
+	color: gray;}
+.blog-single .large-9:before, .blog-archive .large-9:before, .page-right-sidebar .large-9:before{background: url(../../uploads/2019/04/grd-border.png) top right repeat-y;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -20px;
+	width: 20px;
+	height: 100%;
+	z-index: 3;
+}
+.blog-single .large-9, .blog-archive .large-9, .page-right-sidebar .large-9{flex-basis:73%; max-width:73%;}
+.blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{flex-basis:27%; max-width:27%;}
+.blog-archive .post-item:first-child .post-title{font-size:22px; color:#b30004; margin-bottom:10px}
+.blog-archive .post-item:nth-child(2), .blog-archive .post-item:nth-child(3), .blog-archive .post-item:nth-child(4){flex-basis:33.33%; max-width:33.33%}
+.blog-archive .post-item:nth-child(2) .box-image, .blog-archive .post-item:nth-child(3) .box-image, .blog-archive .post-item:nth-child(4) .box-image{width: 100% !important;
+	display: table-row;}
+.blog-archive .post-item:nth-child(2) .box-text, .blog-archive .post-item:nth-child(3) .box-text, .blog-archive .post-item:nth-child(4) .box-text{padding:0; padding-top:5px}
+.blog-archive .post-item:nth-child(2) .box-text .post-title, .blog-archive .post-item:nth-child(3) .box-text .post-title, .blog-archive .post-item:nth-child(4) .box-text .post-title{padding-bottom:7px; font-size:16px; }
+.page-right-sidebar .large-9{padding-right:20px}
+.page-right-sidebar .large-3{padding-left:15px}
+.home .xem-them{display:none}
+.blog-archive .post-item:nth-child(2) .box-text .from_the_blog_excerpt , .blog-archive .post-item:nth-child(3) .box-text .from_the_blog_excerpt , .blog-archive .post-item:nth-child(4) .box-text .from_the_blog_excerpt {height:45px; overflow:hidden}
+.blog-archive .post-item .post-title{font-size:18px}
+.page-right-sidebar .row{max-width:1100px}
+
+.page-right-sidebar ul{margin-bottom:0; margin-left:0}
+.page-right-sidebar ul li{margin-bottom:5px; margin-left:18px}
+.duong-dan .entry-title{text-transform: none;
+	letter-spacing: 0;
+	font-size: 18px;
+	line-height: 24px;}
+.blog-archive .post-item:nth-child(2) .lg-y50, .blog-archive .post-item:nth-child(3) .lg-y50, .blog-archive .post-item:nth-child(4) .lg-y50{top:68px}
+.blog-single .article-inner .entry-category{display:none}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+	#top-bar, .blog-archive .post-sidebar, .page-right-sidebar .large-3, .blog-single .post-sidebar{display:none}
+	.header-main{background:none}
+	.header-wrapper{    box-shadow: 0px 4px 9px #dadada;}
+	.header-search-form{padding:5px !important}
+	.post-row .cot8, .post-row .cot4, .blog-single .large-9, .blog-archive .large-9, .page-right-sidebar .large-9, .blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{flex-basis:100%; max-width:100%}
+	.framed{margin:0 !important}
+	.off-canvas .sidebar-menu {
+		padding: 0;
+	}
+	.off-canvas .nav-vertical>li>a {
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left:10px !important;
+	}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		text-transform: none;
+		font-size: 17px;
+		color: black;
+	}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li .children{    margin-bottom: 0;
+		padding-bottom: 0;
+		background: #cacaca;}
+	.big-post{margin-bottom:15px !important}
+	.vertical-list-post .post-item{flex-basis:50%; max-width:50%; padding: 5px;}
+	.row-large>.col {
+		padding: 0 10px 10px;
+	}
+	.vertical-list-post .post-item .box-text{padding: 0;
+		padding-top: 5px;}
+	.absolute-footer{font-size:12px}
+	.duong-dan .container{height:50px; margin:0; padding: 0 10px}
+	.duong-dan .left, .duong-dan .right{width:100%; }
+	#breadcrumbs{line-height:18px;     padding-top: 7px;}
+	.duong-dan .right{display:none}
+	.blog-archive .post-item .box-text{padding:0; padding-top:5px}
+	.blog-archive .post-item:first-child .box-image{width:100% !important}
+	.blog-archive .post-item:nth-child(2) .box-image, .blog-archive .post-item:nth-child(3) .box-image, .blog-archive .post-item:nth-child(4) .box-image{display:block}
+	.blog-archive .post-item:nth-child(2) .box-text .post-title, .blog-archive .post-item:nth-child(3) .box-text .post-title, .blog-archive .post-item:nth-child(4) .box-text .post-title{font-size:14px}
+
+}
